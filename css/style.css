@@ -37,6 +37,8 @@
       height: 100%;
       color: var(--sp-navleft-logo);
       flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
     }
 
     .music-selection-top {
