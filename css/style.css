@@ -1,0 +1,67 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utilities */
+
+:root {
+  --sp-navleft-col: #000000;
+  --sp-navleft-add: #a3a3a3;
+  --sp-navleft-logo: #ffffff;
+  --sp-navleft-text: #5c5c5c;
+  --sp-navtop-col: #080b12;
+  --sp-top-music: #141922;
+  --sp-top-text: #6a6d71;
+  --sp-top-navtop: #080b12;
+  --sp-bottom-player: #282828;
+}
+
+/* General */
+
+.wrapper {
+  overflow-y: hidden;
+  height: 100vh;
+  width: 100vw;
+
+  .top {
+    height: calc(100% - 80px);
+    background-color: var(--sp-top-music);
+    display: flex;
+
+    .navleft {
+      width: 230px;
+      background-color: var(--sp-navleft-col);
+      height: 100%;
+      color: var(--sp-navleft-logo);
+      flex-shrink: 0;
+    }
+
+    .music-selection-top {
+      display: flex;
+      flex-direction: column;
+      width: calc(100% - 230px);
+      height: calc(100% - 70px);
+      color: var(--sp-navleft-logo);
+      position: relative;
+
+      .navtop {
+        height: 70px;
+        background-color: var(--sp-top-navtop);
+        color: var(--sp-navleft-logo);
+        width: calc(100% - 230px);
+        position: sticky;
+        top: 0;
+        right: 0;
+        padding: 10px;
+      }
+    }
+  }
+
+  .bottom {
+    height: 80px;
+    background-color: var(--sp-bottom-player);
+  }
+}
