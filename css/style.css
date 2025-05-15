@@ -51,7 +51,7 @@
         height: 70px;
         background-color: var(--sp-top-navtop);
         color: var(--sp-navleft-logo);
-        width: calc(100% - 230px);
+        width: 100%;
         position: sticky;
         top: 0;
         right: 0;
