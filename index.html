@@ -1,54 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="./">
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./" />
     <title>Spotify</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
+  <body>
+    <!-- Wrapper -->
     <main class="wrapper">
-        <section class="top">
-            
-            <nav class="navleft">
-                <img src="./img/logo.svg" alt="logo spotify">
-                <div>
-                    <i class="fa-solid fa-house"></i><span>Home</span>
-                </div>
-                <div>
-                 <img src="./img/search.svg" alt="search icon"><span>Cerca</span>
-                </div>
-                <div>
-                    <img src="./img/libreria.svg" alt="library icon"><span>La tua libreria</span>
-                </div>
-                <h3><strong>Playlist</strong></h3>
-                <div>
-                    <i class="fa-solid fa-square-plus"></i><span>Crea Playlist</span>
-                </div>
-                <span>Crea Playlist</span>
-                <span>Crea Playlist</span>
-                <span>Crea Playlist</span>
-                <span>Crea Playlist</span>
-                <span>Crea Playlist</span>
-                <span>Crea Playlist</span>
-                <span>Crea Playlist</span>
+        <!-- Top -->
+      <section class="top">
+        <!-- Navbaer left -->
+        <nav class="navleft">
+          <div class="navbar-menu">
+            <img class="logo" src="./img/logo.svg" alt="logo spotify" />
 
-            </nav>
-            
-            <section class="music-selection-top">
-                <nav class="navtop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum explicabo aliquid similique assumenda quam voluptate eaque dolore labore ullam impedit totam architecto sit vel ducimus libero perspiciatis exercitationem, consequatur iusto!</nav>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga provident nobis nihil temporibus nisi vitae hic eaque eos blanditiis dicta delectus illo nam, perspiciatis mollitia veritatis aut asperiores, quo reprehenderit.
-            
-            </section>
+            <div class="main-menu">
 
+                <div class="home-line">
+                    <img class="home" src="./img/home.svg" alt="home icon" /><span
+                    ><b>Home</b></span
+                    >
+                </div>
+                <div class="search-line">
+                    <img
+                    class="search"
+                    src="./img/search.svg"
+                    alt="search icon"
+                    /><span>Cerca</span>
+                </div>
+                <div class="library-line">
+                    <img
+                    class="library"
+                    src="./img/libreria.svg"
+                    alt="library icon"
+                    /><span>La tua libreria</span>
+                </div>
+            </div>
+            <div class="playlist-list">
+              <h3><strong>Playlist</strong></h3>
+              <div class="add-playlist">
+                <i class="fa-solid fa-square-plus fa-2x add-playlist"></i
+                ><span>Crea Playlist</span>
+              </div>
+              <ul>
+                <li class="playlist-name">Nome Playlist</li>
+                <li class="playlist-name">Nome Playlist</li>
+                <li class="playlist-name">Nome Playlist</li>
+                <li class="playlist-name">Nome Playlist</li>
+                <li class="playlist-name">Nome Playlist</li>
+                <li class="playlist-name">Nome Playlist</li>
+                <li class="playlist-name">Nome Playlist</li>
+              </ul>
+            </div>
+            <div class="download-menu">
 
+                <div class="download">
+                    <img
+                    class="download-img"
+                    src="./img/download.svg"
+                    alt="download icon"
+                    /><span>Installa app</span>
+                </div>
+                <div class="profile">
+                    <img class="profile-img" src="./img/profile.svg" alt="profile icon" /><span
+                    >Nicola D. Rizzo</span
+                    >
+                </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Music selection top -->
+        <section class="music-selection-top">
+            <!-- Navbar top -->
+          <nav class="navtop">
+            <button>Effettua l'upgrade</button>
+          </nav>
+          <!-- Selection list -->
+          <ul class="selection-list">
+            <li class="evidence">in evidenza</li>
+            <li class="podcast">podcast</li>
+            <li class="rankings">classifiche</li>
+            <li class="genres">generi e mood</li>
+            <li class="new">nuove uscite</li>
+            <li class="find">scopri</li>
+          </ul>
         </section>
-        <section class="bottom"></section>
-
+      </section>
+      <section class="bottom"></section>
     </main>
-    
-</body>
+  </body>
 </html>
