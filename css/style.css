@@ -448,11 +448,11 @@ img {
         .profile{
             border: none;
         }
-        }
+    }
+    .music-selection-top {
+      width: calc(100% - 50px);
+    }
       }
 
-      .music-selection-top {
-        width: calc(100% - 50px);
-      }
     }
   }
