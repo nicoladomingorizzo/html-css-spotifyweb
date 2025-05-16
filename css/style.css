@@ -34,20 +34,20 @@
   padding: 1rem;
 }
 
-.col-lg-2{
-    width: calc(100% / 12 * 2);
+.col-lg-2 {
+  width: calc(100% / 12 * 2);
 }
 
-.col-lg-3{
-    width: calc(100% / 12 * 3);
+.col-lg-3 {
+  width: calc(100% / 12 * 3);
 }
 
-.col-lg-6{
-    width: 50%;
+.col-lg-6 {
+  width: 50%;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
 /* General */
@@ -197,7 +197,6 @@ img{
           font-size: 0.7rem;
         }
 
-
         .evidence:after {
           content: "";
           display: block;
@@ -212,152 +211,216 @@ img{
 
       overflow-y: auto;
 
-      .recently-played{
-        
-        h2{
+      .recently-played {
+        .recently-played-title {
+          margin: 10px;
+        }
+
+        .recently-played-music {
+          display: flex;
+          flex-wrap: wrap;
+          text-align: center;
+
+          figcaption {
+            margin: 5px 0;
+
+            h5 {
+              margin: 5px 0;
+              font-size: 0.8rem;
+            }
+          }
+
+          p {
+            color: var(--sp-top-text);
+            font-size: 0.6rem;
+          }
+        }
+    }
+    .created-for {
+        margin: -1rem 0;
+      .created-for-title {
+        margin: 10px;
+      }
+
+      p {
+        color: var(--sp-top-text);
+        font-size: 0.7rem;
+        margin: 10px;
+      }
+
+      .created-for-music {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+        figcaption {
+          margin: 5px 0;
+
+          h5 {
+            margin: 5px 0;
+            font-size: 0.8rem;
+          }
+        }
+
+        p {
+          color: var(--sp-top-text);
+          font-size: 0.6rem;
+        }
+      }
+    }
+
+    .popular-artists {
+        margin: -1rem;
+        .popular-artists-title {
+          margin: 10px;
+        }
+        p {
+            color: var(--sp-top-text);
+            font-size: 0.7rem;
             margin: 10px;
-        }
-
-          
-          .recently-played-music{
-              display: flex;
-              flex-wrap: wrap;
-              text-align: center;
-
-              figcaption{
-                margin: 5px 0;
-
-                h5{
-                    margin: 5px 0;
-                    font-size: 0.8rem;
-                }
+          }
+  
+        .popular-artists-music {
+          display: flex;
+          flex-wrap: wrap;
+          text-align: center;
+  
+          figcaption {
+            margin: 5px 0;
+  
+            h5 {
+              margin: 5px 0;
+              font-size: 0.8rem;
             }
+          }
+  
+          p {
+            color: var(--sp-top-text);
+            font-size: 0.6rem;
+          }
 
-            p{
-                color: var(--sp-top-text);
-                font-size: 0.6rem;
-            }
+          img{
+            border-radius: 50%;
+          };
         }
+      }
+    }
 
-
+    .bottom-player {
+      height: 80px;
+      background-color: var(--sp-bottom-player);
     }
   }
 
-  .bottom {
-    height: 80px;
-    background-color: var(--sp-bottom-player);
-  }
-}
+  .navtop {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 
-.navtop {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-
-  button {
-    width: 200px;
-    height: 40px;
-    padding: 10px;
-    border-radius: 50px;
-    background-color: var(--sp-top-navtop);
-    color: var(--sp-litgher-color);
-    border: 1px solid var(--sp-litgher-color);
-    text-transform: uppercase;
+    button {
+      width: 200px;
+      height: 40px;
+      padding: 10px;
+      border-radius: 50px;
+      background-color: var(--sp-top-navtop);
+      color: var(--sp-litgher-color);
+      border: 1px solid var(--sp-litgher-color);
+      text-transform: uppercase;
+    }
   }
-}
 }
 /* Tablet Mode */
-@media screen and (max-width: 768px){
-    .container {
-        width: 95%;
-        margin: auto;
-      }
-      .recently-played {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 -1rem;
-      }
-      [class^="col-"] {
-        padding: 1rem;
-      }
-      
-      .col-tb-2{
-          width: calc(100% / 12 * 2);
-      }
-      
-      .col-tb-3{
-          width: calc(100% / 12 * 3);
-      }
-      
-      .col-tb-6{
-          width: 50%;
-      }
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+  .recently-played {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+  }
+  [class^="col-"] {
+    padding: 1rem;
+  }
+
+  .col-tb-2 {
+    width: calc(100% / 12 * 2);
+  }
+
+  .col-tb-3 {
+    width: calc(100% / 12 * 3);
+  }
+
+  .col-tb-6 {
+    width: 50%;
+  }
 }
 
 /* Large Mobile Mode */
-@media screen and (max-width: 576px){
-    .container {
-        width: 95%;
-        margin: auto;
-      }
-      .recently-played {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 -1rem;
-      }
-      [class^="col-"] {
-        padding: 1rem;
-      }
-      
-      .col-s-2{
-          width: calc(100% / 12 * 2);
-      }
-      
-      .col-s-3{
-          width: calc(100% / 12 * 3);
-      }
-      
-      .col-s-6{
-          width: 50%;
-      }
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+  .recently-played {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+  }
+  [class^="col-"] {
+    padding: 1rem;
+  }
+
+  .col-s-2 {
+    width: calc(100% / 12 * 2);
+  }
+
+  .col-s-3 {
+    width: calc(100% / 12 * 3);
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
 }
 
 /* Tablet Mode */
-@media screen and (max-width: 480px){
-    .container {
-        width: 95%;
-        margin: auto;
-      }
-      .recently-played {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 -1rem;
-      }
-      [class^="col-"] {
-        padding: 1rem;
-      }
-      
-      .col-s-2{
-          width: calc(100% / 12 * 2);
-      }
-      
-      .col-s-3{
-          width: calc(100% / 12 * 3);
-      }
-      
-      .col-s-6{
-          width: 50%;
+@media screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+  .recently-played {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+  }
+  [class^="col-"] {
+    padding: 1rem;
+  }
+
+  .col-s-2 {
+    width: calc(100% / 12 * 2);
+  }
+
+  .col-s-3 {
+    width: calc(100% / 12 * 3);
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .wrapper {
+    .top {
+      .navleft {
+        width: 50px;
       }
 
-      .wrapper{
-        .top{
-            .navleft{
-                width: 50px;
-            }
-
-            .music-selection-top{
-                width: calc(100% - 50px);
-            }
-        }
+      .music-selection-top {
+        width: calc(100% - 50px);
       }
+    }
+  }
 }
