@@ -229,11 +229,13 @@ img{
 
                 h5{
                     margin: 5px 0;
+                    font-size: 0.8rem;
                 }
             }
 
             p{
                 color: var(--sp-top-text);
+                font-size: 0.6rem;
             }
         }
 
