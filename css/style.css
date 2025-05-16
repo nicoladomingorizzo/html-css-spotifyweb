@@ -365,7 +365,7 @@ img {
         flex-wrap: wrap;
         color: var(--sp-color-text);
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
       }
     }
     img {
