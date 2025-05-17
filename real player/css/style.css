@@ -196,6 +196,7 @@ img {
         top: 0;
         right: 0;
         padding: 10px;
+        z-index: 10;
 
         .upgrade:hover{
           scale: 1.05;
@@ -595,9 +596,19 @@ img {
             color: var(--sp-litgher-color);
           }
 
+          h6:hover{
+            color: var(--sp-litgher-color);
+            cursor: pointer;
+          }
+
           p {
             font-size: 0.6rem;
             color: var(--sp-color-text);
+          }
+
+          p:hover{
+            color: var(--sp-litgher-color);
+            cursor: pointer;
           }
         }
       }
@@ -608,16 +619,24 @@ img {
         color: var(--sp-color-text);
         align-items: center;
         justify-content: center;
+        gap: 10px;
+
+        .fa-heart:hover{
+          color: var(--sp-litgher-color);
+          cursor: pointer;
+        }
+
+        .fa-folder:hover{
+          color: var(--sp-litgher-color);
+          cursor: pointer;
+        }
       }
-    }
+    
     img {
       height: 40px;
       margin-left: 10px;
     }
-
-    .folded-and-favourite {
-      display: flex;
-      gap: 10px;
+  
     }
     .player {
       display: flex;
@@ -631,6 +650,11 @@ img {
         justify-content: space-between;
         align-items: center;
         gap: 70px;
+
+        .fa-shuffle:hover, .fa-backward-step:hover, .fa-forward-step:hover, .fa-rotate-right:hover{
+          color: var(--sp-litgher-color);
+          cursor: pointer;
+        }
 
         .player-time {
           display: flex;

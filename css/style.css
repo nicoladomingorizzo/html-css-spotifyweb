@@ -56,7 +56,7 @@ img {
   overflow-y: hidden;
   height: 100vh;
   width: 100vw;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 
   .top {
     height: calc(100% - 80px);
@@ -173,10 +173,17 @@ img {
         }
       }
 
-      .logo-large:hover, .logo-small:hover, .home-line:hover, .search-line:hover, .library-line:hover, .add-playlist:hover, .playlist-name:hover, .download-menu:hover, .profile:hover{
+      .logo-large:hover,
+      .logo-small:hover,
+      .home-line:hover,
+      .search-line:hover,
+      .library-line:hover,
+      .add-playlist:hover,
+      .playlist-name:hover,
+      .download-menu:hover,
+      .profile:hover {
         color: var(--sp-litgher-color);
         cursor: pointer;
-
       }
     }
 
@@ -196,14 +203,15 @@ img {
         top: 0;
         right: 0;
         padding: 10px;
+        z-index: 10;
 
-        .upgrade:hover{
+        .upgrade:hover {
           scale: 1.05;
           cursor: pointer;
           position: sticky;
           top: 0;
           right: 0;
-          }
+        }
       }
 
       .selection-list {
@@ -216,7 +224,12 @@ img {
         padding: 15px;
         margin-bottom: 30px;
 
-        .evidence:hover, .podcast:hover, .rankings:hover, .genres:hover, .new:hover, .find:hover{
+        .evidence:hover,
+        .podcast:hover,
+        .rankings:hover,
+        .genres:hover,
+        .new:hover,
+        .find:hover {
           color: var(--sp-litgher-color);
           cursor: pointer;
         }
@@ -247,29 +260,26 @@ img {
           margin: 10px;
         }
 
-        .heavy-metal{
+        .heavy-metal {
           position: relative;
 
-          .fa-circle-play{
+          .fa-circle-play {
             width: 90px;
-            height:90px;
+            height: 90px;
             display: none;
           }
-
-
         }
 
-        .heavy-metal:hover{
+        .heavy-metal:hover {
           cursor: pointer;
           opacity: 0.5;
-          .fa-circle-play{
+          .fa-circle-play {
             display: block;
             content: \f144;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            
           }
         }
 
@@ -292,7 +302,6 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            
           }
         }
         .quiet {
@@ -314,7 +323,6 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-           
           }
         }
         .split {
@@ -336,7 +344,6 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            
           }
         }
         .cure {
@@ -358,7 +365,6 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-           
           }
         }
         .sinister {
@@ -380,7 +386,6 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            
           }
         }
         .recently-played-music {
@@ -419,7 +424,7 @@ img {
           }
         }
 
-         .radar:hover {
+        .radar:hover {
           cursor: pointer;
           .fa-circle-play {
             display: block;
@@ -428,7 +433,6 @@ img {
             top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
-           
           }
         }
         .daily-mix {
@@ -441,7 +445,7 @@ img {
           }
         }
 
-         .daily-mix:hover {
+        .daily-mix:hover {
           cursor: pointer;
           .fa-circle-play {
             display: block;
@@ -450,7 +454,6 @@ img {
             top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
-            
           }
         }
         p {
@@ -496,7 +499,7 @@ img {
           }
         }
 
-         .lana-del-rey:hover {
+        .lana-del-rey:hover {
           cursor: pointer;
           .fa-circle-play {
             display: block;
@@ -505,7 +508,6 @@ img {
             top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
-            
           }
         }
         .einaudi {
@@ -518,7 +520,7 @@ img {
           }
         }
 
-         .einaudi:hover {
+        .einaudi:hover {
           cursor: pointer;
           .fa-circle-play {
             display: block;
@@ -527,7 +529,6 @@ img {
             top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
-            
           }
         }
         p {
@@ -597,9 +598,19 @@ img {
             color: var(--sp-litgher-color);
           }
 
+          h6:hover {
+            color: var(--sp-litgher-color);
+            cursor: pointer;
+          }
+
           p {
             font-size: 0.6rem;
             color: var(--sp-color-text);
+          }
+
+          p:hover {
+            color: var(--sp-litgher-color);
+            cursor: pointer;
           }
         }
       }
@@ -610,16 +621,22 @@ img {
         color: var(--sp-color-text);
         align-items: center;
         justify-content: center;
+        gap: 10px;
+
+        .fa-heart:hover {
+          color: var(--sp-litgher-color);
+          cursor: pointer;
+        }
+
+        .fa-folder:hover {
+          color: var(--sp-litgher-color);
+          cursor: pointer;
+        }
       }
     }
     img {
       height: 40px;
       margin-left: 10px;
-    }
-
-    .folded-and-favourite {
-      display: flex;
-      gap: 10px;
     }
     .player {
       display: flex;
@@ -634,26 +651,58 @@ img {
         align-items: center;
         gap: 20px;
 
+        .fa-shuffle:hover,
+        .fa-backward-step:hover,
+        .fa-circle-play:hover,
+        .fa-forward-step:hover,
+        .fa-rotate-right:hover {
+          color: var(--sp-litgher-color);
+          cursor: pointer;
+        }
+
         .player-time {
           display: flex;
-          flex-wrap: nowrap;
         }
       }
-      .progressive-bar-player {
+      .bar-player-100 {
         margin-top: 20px;
         border-bottom: 2px solid var(--sp-color-text);
-      }
-        
-        .progressive-bar-player:after {
-        content: "";
-        display: inline-block;
-        margin-top: 5px;
         border-radius: 2px;
+        position: relative;
+
+        .fa-circle {
+          position: absolute;
+          top: -7px;
+          left: 40px;
+          color: var(--sp-litgher-color);
+          display: none;
+        }
+
+        .fa-circle:hover {
+          position: absolute;
+          top: -7px;
+          left: 40px;
+          color: var(--sp-litgher-color);
+          display: inline-block;
+          z-index: 2;
+        }
+      }
+
+      .progressive-bar-player {
         width: 30%;
-        height: 4px;
-        background: var(--sp-litgher-color);
+        border-bottom: 4px solid var(--sp-litgher-color);
+        border-radius: 2px;
         position: absolute;
-        top: 30px;
+        top: 35px;
+        left: -1px;
+      }
+
+      .progressive-bar-player:hover {
+        width: 30%;
+        border-bottom: 4px solid var(--sp-border-selected);
+        border-radius: 2px;
+        position: absolute;
+        top: 35px;
         left: -1px;
       }
     }
@@ -666,22 +715,34 @@ img {
       padding-right: 10px;
       position: relative;
 
-      .progressive-bar-volume {
+      .fa-list:hover,
+      .fa-display:hover,
+      .fa-volume-high:hover {
+        color: var(--sp-litgher-color);
+        cursor: pointer;
+      }
+
+      .bar-volume-100 {
         width: 80px;
         border: 1px solid var(--sp-color-text);
         border-radius: 2px;
       }
 
-      .progressive-bar-volume:after {
-        content: "";
-        display: block;
-        margin-top: 5px;
-        border-radius: 2px;
+      .progressive-bar-volume {
         width: 25px;
-        height: 4px;
-        background: var(--sp-litgher-color);
+        border: 2px solid var(--sp-litgher-color);
+        border-radius: 2px;
         position: absolute;
-        top: 1px;
+        top: 6px;
+        left: 83px;
+      }
+
+      .progressive-bar-volume:hover {
+        width: 25px;
+        border: 2px solid var(--sp-border-selected);
+        border-radius: 2px;
+        position: absolute;
+        top: 6px;
         left: 83px;
       }
     }
@@ -808,12 +869,11 @@ img {
     }
 
     .progressive-bar-volume {
-        display: none;
-      }
+      display: none;
+    }
 
-      .progressive-bar-volume:after {
-        display: none;
-        
-      }
+    .progressive-bar-volume:after {
+      display: none;
+    }
   }
 }
