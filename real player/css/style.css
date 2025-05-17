@@ -172,6 +172,12 @@ img {
           font-weight: bold;
         }
       }
+
+      .logo-large:hover, .logo-small:hover, .home-line:hover, .search-line:hover, .library-line:hover, .add-playlist:hover, .playlist-name:hover, .download-menu:hover, .profile:hover{
+        color: var(--sp-litgher-color);
+        cursor: pointer;
+
+      }
     }
 
     .music-selection-top {
@@ -190,6 +196,12 @@ img {
         top: 0;
         right: 0;
         padding: 10px;
+
+        .upgrade:hover{
+          scale: 1.05;
+          cursor: pointer;
+          
+          }
       }
 
       .selection-list {
@@ -201,6 +213,11 @@ img {
         text-transform: uppercase;
         padding: 15px;
         margin-bottom: 30px;
+
+        .evidence:hover, .podcast:hover, .rankings:hover, .genres:hover, .new:hover, .find:hover{
+          color: var(--sp-litgher-color);
+          cursor: pointer;
+        }
 
         li {
           margin: 0 10px;
@@ -228,6 +245,130 @@ img {
           margin: 10px;
         }
 
+        .heavy-metal{
+          position: relative;
+
+          .fa-circle-play{
+            width: 90px;
+            height:90px;
+            display: none;
+          }
+
+
+        }
+
+        .heavy-metal:hover{
+          opacity: 0.5;
+          .fa-circle-play{
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+
+        .stranger {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+        .stranger:hover {
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+        .quiet {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+        .quiet:hover {
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+        .split {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+        .split:hover {
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+        .cure {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+        .cure:hover {
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+        .sinister {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+        .sinister:hover {
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
         .recently-played-music {
           display: flex;
           flex-wrap: wrap;
