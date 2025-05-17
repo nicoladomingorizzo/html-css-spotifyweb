@@ -56,7 +56,7 @@ img {
   overflow-y: hidden;
   height: 100vh;
   width: 100vw;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 
   .top {
     height: calc(100% - 80px);
@@ -173,17 +173,10 @@ img {
         }
       }
 
-      .logo-large:hover,
-      .logo-small:hover,
-      .home-line:hover,
-      .search-line:hover,
-      .library-line:hover,
-      .add-playlist:hover,
-      .playlist-name:hover,
-      .download-menu:hover,
-      .profile:hover {
+      .logo-large:hover, .logo-small:hover, .home-line:hover, .search-line:hover, .library-line:hover, .add-playlist:hover, .playlist-name:hover, .download-menu:hover, .profile:hover{
         color: var(--sp-litgher-color);
         cursor: pointer;
+
       }
     }
 
@@ -204,10 +197,13 @@ img {
         right: 0;
         padding: 10px;
 
-        .upgrade:hover {
+        .upgrade:hover{
           scale: 1.05;
           cursor: pointer;
-        }
+          position: sticky;
+          top: 0;
+          right: 0;
+          }
       }
 
       .selection-list {
@@ -220,15 +216,11 @@ img {
         padding: 15px;
         margin-bottom: 30px;
 
-        .evidence:hover,
-        .podcast:hover,
-        .rankings:hover,
-        .genres:hover,
-        .new:hover,
-        .find:hover {
+        .evidence:hover, .podcast:hover, .rankings:hover, .genres:hover, .new:hover, .find:hover{
           color: var(--sp-litgher-color);
           cursor: pointer;
         }
+
         li {
           margin: 0 10px;
           color: var(--sp-color-text);
@@ -255,24 +247,29 @@ img {
           margin: 10px;
         }
 
-        .heavy-metal {
+        .heavy-metal{
           position: relative;
 
-          .fa-circle-play {
+          .fa-circle-play{
             width: 90px;
-            height: 90px;
+            height:90px;
             display: none;
           }
+
+
         }
 
-        .heavy-metal:hover {
-          .fa-circle-play {
+        .heavy-metal:hover{
+          cursor: pointer;
+          opacity: 0.5;
+          .fa-circle-play{
             display: block;
             content: \f144;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            
           }
         }
 
@@ -287,6 +284,7 @@ img {
         }
 
         .stranger:hover {
+          cursor: pointer;
           .fa-circle-play {
             display: block;
             content: \f144;
@@ -294,6 +292,7 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            
           }
         }
         .quiet {
@@ -307,6 +306,7 @@ img {
         }
 
         .quiet:hover {
+          cursor: pointer;
           .fa-circle-play {
             display: block;
             content: \f144;
@@ -314,6 +314,7 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+           
           }
         }
         .split {
@@ -327,6 +328,7 @@ img {
         }
 
         .split:hover {
+          cursor: pointer;
           .fa-circle-play {
             display: block;
             content: \f144;
@@ -334,6 +336,7 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            
           }
         }
         .cure {
@@ -347,6 +350,7 @@ img {
         }
 
         .cure:hover {
+          cursor: pointer;
           .fa-circle-play {
             display: block;
             content: \f144;
@@ -354,6 +358,7 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+           
           }
         }
         .sinister {
@@ -367,6 +372,7 @@ img {
         }
 
         .sinister:hover {
+          cursor: pointer;
           .fa-circle-play {
             display: block;
             content: \f144;
@@ -374,9 +380,9 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            
           }
         }
-
         .recently-played-music {
           display: flex;
           flex-wrap: wrap;
@@ -403,6 +409,50 @@ img {
           margin: 10px;
         }
 
+        .radar {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+         .radar:hover {
+          cursor: pointer;
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+           
+          }
+        }
+        .daily-mix {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+         .daily-mix:hover {
+          cursor: pointer;
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+          }
+        }
         p {
           color: var(--sp-color-text);
           font-size: 0.7rem;
@@ -434,6 +484,51 @@ img {
         margin: -1rem;
         .popular-artists-title {
           margin: 10px;
+        }
+
+        .lana-del-rey {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+         .lana-del-rey:hover {
+          cursor: pointer;
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+          }
+        }
+        .einaudi {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+         .einaudi:hover {
+          cursor: pointer;
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+          }
         }
         p {
           color: var(--sp-color-text);
@@ -531,12 +626,13 @@ img {
       flex-direction: column;
       color: var(--sp-color-text);
       position: relative;
+      padding-right: 20px;
 
       .music-buttons {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 15px;
+        gap: 20px;
 
         .player-time {
           display: flex;
@@ -544,11 +640,11 @@ img {
         }
       }
       .progressive-bar-player {
-        margin-top: 10px;
+        margin-top: 20px;
         border-bottom: 2px solid var(--sp-color-text);
       }
-
-      .progressive-bar-player:after {
+        
+        .progressive-bar-player:after {
         content: "";
         display: inline-block;
         margin-top: 5px;
@@ -557,8 +653,8 @@ img {
         height: 4px;
         background: var(--sp-litgher-color);
         position: absolute;
-        top: 20px;
-        left: 0;
+        top: 30px;
+        left: -1px;
       }
     }
 
@@ -712,11 +808,12 @@ img {
     }
 
     .progressive-bar-volume {
-      display: none;
-    }
+        display: none;
+      }
 
-    .progressive-bar-volume:after {
-      display: none;
-    }
+      .progressive-bar-volume:after {
+        display: none;
+        
+      }
   }
 }

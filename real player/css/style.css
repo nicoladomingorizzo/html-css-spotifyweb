@@ -258,6 +258,7 @@ img {
         }
 
         .heavy-metal:hover{
+          cursor: pointer;
           opacity: 0.5;
           .fa-circle-play{
             display: block;
@@ -266,6 +267,7 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            
           }
         }
 
@@ -280,6 +282,7 @@ img {
         }
 
         .stranger:hover {
+          cursor: pointer;
           .fa-circle-play {
             display: block;
             content: \f144;
@@ -287,6 +290,7 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            
           }
         }
         .quiet {
@@ -300,6 +304,7 @@ img {
         }
 
         .quiet:hover {
+          cursor: pointer;
           .fa-circle-play {
             display: block;
             content: \f144;
@@ -307,6 +312,7 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+           
           }
         }
         .split {
@@ -320,6 +326,7 @@ img {
         }
 
         .split:hover {
+          cursor: pointer;
           .fa-circle-play {
             display: block;
             content: \f144;
@@ -327,6 +334,7 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            
           }
         }
         .cure {
@@ -340,6 +348,7 @@ img {
         }
 
         .cure:hover {
+          cursor: pointer;
           .fa-circle-play {
             display: block;
             content: \f144;
@@ -347,6 +356,7 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+           
           }
         }
         .sinister {
@@ -360,6 +370,7 @@ img {
         }
 
         .sinister:hover {
+          cursor: pointer;
           .fa-circle-play {
             display: block;
             content: \f144;
@@ -367,6 +378,7 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            
           }
         }
         .recently-played-music {
@@ -395,6 +407,50 @@ img {
           margin: 10px;
         }
 
+        .radar {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+         .radar:hover {
+          cursor: pointer;
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+           
+          }
+        }
+        .daily-mix {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+         .daily-mix:hover {
+          cursor: pointer;
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+          }
+        }
         p {
           color: var(--sp-color-text);
           font-size: 0.7rem;
@@ -426,6 +482,51 @@ img {
         margin: -1rem;
         .popular-artists-title {
           margin: 10px;
+        }
+
+        .lana-del-rey {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+         .lana-del-rey:hover {
+          cursor: pointer;
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+          }
+        }
+        .einaudi {
+          position: relative;
+
+          .fa-circle-play {
+            width: 90px;
+            height: 90px;
+            display: none;
+          }
+        }
+
+         .einaudi:hover {
+          cursor: pointer;
+          .fa-circle-play {
+            display: block;
+            content: \f144;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+          }
         }
         p {
           color: var(--sp-color-text);
