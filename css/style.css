@@ -280,117 +280,189 @@ img {
           &:hover {
             .overlay-img {
               opacity: 1;
+              transition: opacity 0.3s;
+              cursor: pointer;
+
+              .fa-circle-play {
+                display: block;
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
             }
-          }
-        }
-
-        .heavymetal:hover {
-          cursor: pointer;
-
-          .fa-circle-play {
-            display: block;
-            content: \f144;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
           }
         }
 
         .card-img-stranger {
           position: relative;
 
-          .fa-circle-play {
-            display: none;
-          }
-        }
-
-        .stranger:hover {
-          cursor: pointer;
-
-          .fa-circle-play {
-            display: block;
-            content: \f144;
+          .overlay-img {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+
+            .fa-circle-play {
+              display: none;
+            }
+          }
+
+          &:hover {
+            .overlay-img {
+              opacity: 1;
+              transition: opacity 0.3s;
+              cursor: pointer;
+              
+              .fa-circle-play {
+                display: block;
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
           }
         }
         .card-img-quiet {
           position: relative;
 
-          .fa-circle-play {
-            display: none;
-          }
-        }
-
-        .quiet:hover {
-          cursor: pointer;
-          .fa-circle-play {
-            display: block;
-            content: \f144;
+          .overlay-img {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+
+            .fa-circle-play {
+              display: none;
+            }
+          }
+
+          &:hover {
+            .overlay-img{
+
+              opacity: 1;
+              transition: opacity 0.3s;
+              cursor: pointer;
+              .fa-circle-play {
+                display: block;
+   
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
           }
         }
         .card-img-split {
           position: relative;
 
-          .fa-circle-play {
-            display: none;
-          }
-        }
-
-        .split:hover {
-          cursor: pointer;
-          .fa-circle-play {
-            display: block;
-            content: \f144;
+          .overlay-img {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+
+            .fa-circle-play {
+              display: none;
+            }
+          }
+          
+          &:hover {
+            .overlay-img{
+              
+              opacity: 1;
+              transition: opacity 0.3s;
+              cursor: pointer;
+              .fa-circle-play {
+                display: block;
+   
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
           }
         }
         .card-img-cure {
           position: relative;
 
-          .fa-circle-play {
-            display: none;
-          }
-        }
-
-        .cure:hover {
-          cursor: pointer;
-          .fa-circle-play {
-            display: block;
-            content: \f144;
+          .overlay-img {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+
+            .fa-circle-play {
+              display: none;
+            }
           }
-        }
+          
+          &:hover {
+            .overlay-img{
+              
+              opacity: 1;
+              transition: opacity 0.3s;
+              cursor: pointer;
+              .fa-circle-play {
+                display: block;
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
+          }
+          }
         .card-img-sinister {
           position: relative;
 
-          .fa-circle-play {
-            display: none;
-          }
-        }
-
-        .sinister:hover {
-          cursor: pointer;
-          .fa-circle-play {
-            display: block;
-            content: \f144;
+          .overlay-img {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+
+            .fa-circle-play {
+              display: none;
+            }
+          }
+          
+          &:hover {
+            .overlay-img{
+
+              opacity: 1;
+              transition: opacity 0.3s;
+              cursor: pointer;
+              .fa-circle-play {
+                display: block;
+               
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
           }
         }
         .recently-played-music {
@@ -422,39 +494,69 @@ img {
         .card-img-radar {
           position: relative;
 
-          .fa-circle-play {
-            display: none;
-          }
-        }
-
-        .radar:hover {
-          cursor: pointer;
-          .fa-circle-play {
-            display: block;
-            content: \f144;
+          .overlay-img {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+
+            .fa-circle-play {
+              display: none;
+            }
+          }
+          
+          &:hover {
+            .overlay-img{
+
+              opacity: 1;
+              transition: opacity 0.3s;
+              cursor: pointer;
+              .fa-circle-play {
+                display: block;
+                
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
           }
         }
         .card-img-daily-mix {
           position: relative;
 
-          .fa-circle-play {
-            display: none;
-          }
-        }
-
-        .daily-mix:hover {
-          cursor: pointer;
-          .fa-circle-play {
-            display: block;
-            content: \f144;
+          .overlay-img {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+
+            .fa-circle-play {
+              display: none;
+            }
+          }
+          
+          &:hover {
+            .overlay-img{
+
+              opacity: 1;
+              transition: opacity 0.3s;
+              cursor: pointer;
+              .fa-circle-play {
+                display: block;
+            
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
           }
         }
         p {
@@ -493,39 +595,71 @@ img {
         .card-img-lana-del-rey {
           position: relative;
 
-          .fa-circle-play {
-            display: none;
-          }
-        }
-
-        .lana-del-rey:hover {
-          cursor: pointer;
-          .fa-circle-play {
-            display: block;
-            content: \f144;
+          .overlay-img {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            border-radius: 50%;
+
+            .fa-circle-play {
+              display: none;
+            }
+          }
+          
+          &:hover {
+            .overlay-img{
+
+              opacity: 1;
+              transition: opacity 0.3s;
+              cursor: pointer;
+              .fa-circle-play {
+                display: block;
+             
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
           }
         }
         .card-img-einaudi {
           position: relative;
 
-          .fa-circle-play {
-            display: none;
-          }
-        }
-
-        .einaudi:hover {
-          cursor: pointer;
-          .fa-circle-play {
-            display: block;
-            content: \f144;
+          .overlay-img {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            border-radius: 50%;
+
+            .fa-circle-play {
+              display: none;
+            }
+          }
+          
+          &:hover {
+            .overlay-img{
+
+              opacity: 1;
+              transition: opacity 0.3s;
+              cursor: pointer;
+              .fa-circle-play {
+                display: block;
+               
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
           }
         }
         p {
@@ -638,7 +772,7 @@ img {
     .player {
       display: flex;
       flex-direction: column;
-      color: var(--sp-color-text);
+      color: var(--sp-litgher-color);
       position: relative;
       padding-right: 20px;
 
@@ -653,7 +787,7 @@ img {
         .fa-circle-play:hover,
         .fa-forward-step:hover,
         .fa-rotate-right:hover {
-          color: var(--sp-litgher-color);
+          scale: 1.2;
           cursor: pointer;
         }
 
@@ -698,14 +832,14 @@ img {
       display: flex;
       align-items: center;
       gap: 10px;
-      color: var(--sp-color-text);
+      color: var(--sp-litgher-color);
       padding-right: 10px;
       position: relative;
 
       .fa-list:hover,
       .fa-display:hover,
       .fa-volume-high:hover {
-        color: var(--sp-litgher-color);
+        scale: 1.2;
         cursor: pointer;
       }
 
