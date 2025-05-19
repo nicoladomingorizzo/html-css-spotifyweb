@@ -263,16 +263,19 @@ img {
         .card-img-heavymetal {
           position: relative;
 
+          .overlay-img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: black transparent;
+            width: 100%;
+            height: 100%;
+  
+            .fa-circle-play {
+              display: none;
+            }
+            }
         }
-        .overlay-img {
-          background-color: black transparent;
-          width: 100%;
-          height: 100%;
-
-          .fa-circle-play {
-            display: none;
-          }
-          }
         
 
         .heavymetal:hover {
@@ -680,6 +683,24 @@ img {
     
     .bar-player-100:hover{
       display: block;
+
+      .progressive-bar-player {
+        width: 30%;
+        border-bottom: 4px solid var(--sp-litgher-color);
+        border-radius: 2px;
+        position: absolute;
+        top: 35px;
+        left: -1px;
+        display: block;
+        
+        .fa-circle {
+           position: absolute;
+           top: -7px;
+           left: 40px;
+           color: var(--sp-litgher-color);
+           display: block;
+         }
+        }
       
     }
 
