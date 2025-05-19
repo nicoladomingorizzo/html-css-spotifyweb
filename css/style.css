@@ -180,7 +180,7 @@ img {
       .library-line:hover,
       .add-playlist:hover,
       .playlist-name:hover,
-      .download-menu:hover,
+      .download:hover,
       .profile:hover {
         color: var(--sp-litgher-color);
         cursor: pointer;
