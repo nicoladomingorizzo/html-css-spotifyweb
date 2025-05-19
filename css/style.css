@@ -773,7 +773,6 @@ img {
       flex-direction: column;
       color: var(--sp-litgher-color);
       position: relative;
-      padding-right: 20px;
 
       .music-buttons {
         display: flex;
